@@ -8,6 +8,6 @@ Rdockery uses Hpricot, so you'll need that gem to use it.
 
 ## Usage ##
 
-<pre><code>rdockery <path to rdoc file root></code></pre>
+<pre><code>rdockery _path to rdoc file root_</code></pre>
 
-<path to rdoc file root> is usually the doc directory of your Rails root. Rdockery creates a file called <code>megadoc.html</code> in <path to rdoc file root>.
+_path to rdoc file root_ is usually the doc directory of your Rails root. Rdockery creates a file called <code>megadoc.html</code> in _path to rdoc file root_.
