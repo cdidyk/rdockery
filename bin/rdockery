@@ -2,17 +2,6 @@
 
 $: << File.join(File.dirname(__FILE__), "/../lib")
 
-# FF print html page to PDF works well enough.
-#
-# 1. Go through classes and files dirs of rdoc
-# 2. For each file, take its body? contents and append it to a master file
-# 3. The master file should have a proper XHTML head (including stylesheet)/doctype/ (take
-#    from first file?)
-# 4. The master file can be viewed as html in Firefox and printed to a saved PDF
-#
-# Should organization be files then classes or classes under their respective files? I think
-# the latter.
-#
 # Usage is:
 #
 # rdockery <path_to_rdoc_file_root>
